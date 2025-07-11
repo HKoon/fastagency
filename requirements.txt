@@ -1,0 +1,38 @@
+# FastAgency 核心依赖
+fastagency[openai,mesop,server,fastapi]
+
+# 数据库相关
+psycopg2-binary>=2.9.0
+sqlalchemy>=2.0.0
+asyncpg>=0.29.0
+
+# Web 服务器
+uvicorn[standard]>=0.24.0
+fastapi>=0.104.0
+gunicorn>=21.2.0
+
+# HTTP 客户端
+httpx>=0.25.0
+requests>=2.31.0
+
+# 环境和配置
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# 日志和监控
+structlog>=23.2.0
+
+# 开发和测试（可选）
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+isort>=5.12.0
+flake8>=6.0.0
+
+# 安全
+cryptography>=41.0.0
+
+# 其他工具
+typer>=0.9.0
+rich>=13.0.0
